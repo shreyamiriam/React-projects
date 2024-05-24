@@ -11,11 +11,11 @@ function App() {
     <div>
 
       
-      <Contact/>
+      <Contact st={{color:"red"}}    id={{name1 :"Minnu", age:46}} name="Teacher"/>
       <div>
         <p>Some Contents</p>
       </div>
-      <Contact/>
+      <Contact st={{color:"green"}}   id={{name1:"Sneha",age:15}} name="Student"/>
     </div>
   )
 }

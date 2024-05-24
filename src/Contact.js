@@ -1,8 +1,12 @@
 import React from 'react'
+import './Contact.css';
 
-function Contact() {
+function Contact(props) {
   return (
-    <div>
+    <div style={props.st}>
+      
+      <p>{props.id.name1}</p>
+      <h1>{props.name} Contact Page</h1>
         <label>Email Address</label>
         <input type="text"/>
         <br/>
