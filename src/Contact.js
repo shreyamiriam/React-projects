@@ -3,10 +3,13 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-        <label>Email id</label>
+        <label>Email Address</label>
         <input type="text"/>
-        <br></br>
-        <h1>Achu jozef</h1>
+        <br/>
+        <label>message</label>
+        <textarea></textarea>
+        <button>Send</button>
+        
     </div>
 
   )
