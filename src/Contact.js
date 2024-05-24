@@ -6,8 +6,9 @@ function Contact() {
         <label>Email id</label>
         <input type="text"/>
         <br></br>
-        
+        <h1>Achu jozef</h1>
     </div>
+
   )
 }
 
